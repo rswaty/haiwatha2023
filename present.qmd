@@ -1,0 +1,21 @@
+---
+title: "Present"
+---
+
+## What's in this section
+
+## Chart of most prevalent Existing Vegetation Types
+
+## Map of most prevalent Existing Vegetation Types
+
+## Data table
+
+## Chart of Existing Vegetation Cover
+
+## Map of Existing Vegetation Cover
+
+## Chart of Existing Vegetation Height
+
+## Map of Existing Vegetation Height
+
+## Current disturbances

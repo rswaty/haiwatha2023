@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "about.html#other-data-sources",
+    "href": "about.html#other-data-sources",
+    "title": "About",
+    "section": "Other data sources",
+    "text": "Other data sources"
+  },
+  {
+    "objectID": "about.html#to-learn-more",
+    "href": "about.html#to-learn-more",
+    "title": "About",
+    "section": "To learn more",
+    "text": "To learn more"
+  },
+  {
+    "objectID": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
+    "href": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
+    "title": "Comparisons",
+    "section": "Succession classes for most dominant Biophysical Settings",
+    "text": "Succession classes for most dominant Biophysical Settings"
+  },
+  {
+    "objectID": "comparing.html#comparing-past-to-present-disturbances",
+    "href": "comparing.html#comparing-past-to-present-disturbances",
+    "title": "Comparisons",
+    "section": "Comparing past to present disturbances",
+    "text": "Comparing past to present disturbances"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hiawatha National Forest Ecological Assessment, 2023",
+    "section": "",
+    "text": "In general we will use LANDFIRE and Center for Resilient Conservation Science products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\nPresent maps of landscape-scale connectivity and resilient sites"
+  },
+  {
+    "objectID": "index.html#location-of-this-assessment",
+    "href": "index.html#location-of-this-assessment",
+    "title": "Hiawatha National Forest Ecological Assessment, 2023",
+    "section": "Location of this assessment",
+    "text": "Location of this assessment\nThe assessment area is essentially the Hiawatha National Forest Proclamation Boundary plus a 1 mile buffer (supplied by Sam Adams, GIS coordinator)."
+  },
+  {
+    "objectID": "interpretation.html#ecosystem-specific-observations",
+    "href": "interpretation.html#ecosystem-specific-observations",
+    "title": "Interpretation",
+    "section": "Ecosystem specific observations",
+    "text": "Ecosystem specific observations"
+  },
+  {
+    "objectID": "past.html",
+    "href": "past.html",
+    "title": "Past",
+    "section": "",
+    "text": "LANDFIRE’s Biophysical Settings (BpSs, aka “Historical Ecosystems”) represent “the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of the historical disturbance regime.” (from https://landfire.gov/bps.php). We will use this data to explore the most prevalent BpSs in a chart and map, and also the historical disturbance data that are linked to the BpSs."
+  },
+  {
+    "objectID": "past.html#summary",
+    "href": "past.html#summary",
+    "title": "Past",
+    "section": "Summary",
+    "text": "Summary\nHistorically 10 historical ecosystems covered roughly 90% of the Hiawatha National Forest. More specifically:\n\nWetland types (primarily the ‘Laurentian-Acadian Alkaline Conifer-Hardwood Swamp’ and ‘Boreal Acidic Peatland Systems’) were present on > 40% of the area.\nThe ‘Laurentian-Acadian Northern Hardwoods Forest-Hemlock’ ecosystem covered ~20% of the area\nRoughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years."
+  },
+  {
+    "objectID": "past.html#chart-of-most-prevalent-biophysical-settings",
+    "href": "past.html#chart-of-most-prevalent-biophysical-settings",
+    "title": "Past",
+    "section": "Chart of most prevalent Biophysical Settings",
+    "text": "Chart of most prevalent Biophysical Settings"
+  },
+  {
+    "objectID": "past.html#map-of-most-prevalent-biophysical-settings",
+    "href": "past.html#map-of-most-prevalent-biophysical-settings",
+    "title": "Past",
+    "section": "Map of most prevalent Biophysical Settings",
+    "text": "Map of most prevalent Biophysical Settings\n\n\n\n\nHistorical Ecosystems"
+  },
+  {
+    "objectID": "past.html#historical-disturbances",
+    "href": "past.html#historical-disturbances",
+    "title": "Past",
+    "section": "Historical disturbances",
+    "text": "Historical disturbances"
+  },
+  {
+    "objectID": "past.html#data-table",
+    "href": "past.html#data-table",
+    "title": "Past",
+    "section": "Data table",
+    "text": "Data table"
+  },
+  {
+    "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
+    "href": "present.html#chart-of-most-prevalent-existing-vegetation-types",
+    "title": "Present",
+    "section": "Chart of most prevalent Existing Vegetation Types",
+    "text": "Chart of most prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#map-of-most-prevalent-existing-vegetation-types",
+    "href": "present.html#map-of-most-prevalent-existing-vegetation-types",
+    "title": "Present",
+    "section": "Map of most prevalent Existing Vegetation Types",
+    "text": "Map of most prevalent Existing Vegetation Types"
+  },
+  {
+    "objectID": "present.html#data-table",
+    "href": "present.html#data-table",
+    "title": "Present",
+    "section": "Data table",
+    "text": "Data table"
+  },
+  {
+    "objectID": "present.html#chart-of-existing-vegetation-cover",
+    "href": "present.html#chart-of-existing-vegetation-cover",
+    "title": "Present",
+    "section": "Chart of Existing Vegetation Cover",
+    "text": "Chart of Existing Vegetation Cover"
+  },
+  {
+    "objectID": "present.html#map-of-existing-vegetation-cover",
+    "href": "present.html#map-of-existing-vegetation-cover",
+    "title": "Present",
+    "section": "Map of Existing Vegetation Cover",
+    "text": "Map of Existing Vegetation Cover"
+  },
+  {
+    "objectID": "present.html#chart-of-existing-vegetation-height",
+    "href": "present.html#chart-of-existing-vegetation-height",
+    "title": "Present",
+    "section": "Chart of Existing Vegetation Height",
+    "text": "Chart of Existing Vegetation Height"
+  },
+  {
+    "objectID": "present.html#map-of-existing-vegetation-height",
+    "href": "present.html#map-of-existing-vegetation-height",
+    "title": "Present",
+    "section": "Map of Existing Vegetation Height",
+    "text": "Map of Existing Vegetation Height"
+  },
+  {
+    "objectID": "present.html#current-disturbances",
+    "href": "present.html#current-disturbances",
+    "title": "Present",
+    "section": "Current disturbances",
+    "text": "Current disturbances"
+  }
+]

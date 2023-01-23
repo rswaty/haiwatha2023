@@ -1,0 +1,61 @@
+---
+title: "Past"
+---
+
+## What's in this section
+
+LANDFIRE's [Biophysical Settings (BpSs, aka "Historical Ecosystems")](https://landfire.gov/bps.php){target="blank"} represent "the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of the historical disturbance regime." (from https://landfire.gov/bps.php). We will use this data to explore the most prevalent BpSs in a chart and map, and also the historical disturbance data that are linked to the BpSs.
+
+## Summary
+Historically 10 historical ecosystems covered roughly 90% of the Hiawatha National Forest.  More specifically:
+
+* Wetland types (primarily the 'Laurentian-Acadian Alkaline Conifer-Hardwood Swamp' and 'Boreal Acidic Peatland Systems') were present on > 40% of the area.
+* The 'Laurentian-Acadian Northern Hardwoods Forest-Hemlock' ecosystem covered ~20% of the area
+* Roughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years.
+
+
+## Chart of most prevalent Biophysical Settings
+
+<br>
+
+
+```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10}
+library(tidyverse)
+
+bps_data <- read.csv("data/bps_aoi_attributes.csv")
+
+bpsname <- bps_data %>%
+  group_by(BPS_NAME) %>%
+  summarize(ACRES = sum(ACRES),
+            REL_PERCENT = sum(REL_PERCENT)) %>%
+  arrange(desc(REL_PERCENT)) %>%
+  top_n(n = 10, wt = REL_PERCENT)
+
+# plot
+bpsChart <- 
+  ggplot(data = bpsname, aes(x = BPS_NAME, y = REL_PERCENT)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Top 10 Biophysical Settings",
+    subtitle = "Represents dominant vegetation systems pre-European colonization",
+    caption = "Data from landfire.gov.",
+    x = "",
+    y = "Percent of landscape") +
+  scale_x_discrete(limits = rev(bpsname$BPS_NAME)) +
+  coord_flip() +
+  theme_bw()
+
+bpsChart
+```
+
+
+## Map of most prevalent Biophysical Settings
+
+<br>
+
+![Historical Ecosystems](images/bps_map.jpg){width=100%}
+
+
+## Historical disturbances
+
+## Data table
