@@ -14,8 +14,8 @@ website:
         text: Present
       - href: comparing.qmd
         text: Comparing
-      - href: interpretation.qmd
-        text: Interpretation
+      - href: rcn.qmd
+        text: Looking forward
       - href: about.qmd
         text: About
 

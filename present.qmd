@@ -2,7 +2,9 @@
 title: "Present"
 ---
 
-## What's in this section
+Describe this page a bit
+
+## Summary
 
 ## Chart of most prevalent Existing Vegetation Types
 

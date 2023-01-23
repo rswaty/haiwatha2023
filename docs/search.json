@@ -14,6 +14,27 @@
     "text": "To learn more"
   },
   {
+    "objectID": "comparing.html",
+    "href": "comparing.html",
+    "title": "Comparisons",
+    "section": "",
+    "text": "Describe this page a bit"
+  },
+  {
+    "objectID": "comparing.html#summary",
+    "href": "comparing.html#summary",
+    "title": "Comparisons",
+    "section": "Summary",
+    "text": "Summary"
+  },
+  {
+    "objectID": "comparing.html#looking-at-broad-changes-vegetation-conversion",
+    "href": "comparing.html#looking-at-broad-changes-vegetation-conversion",
+    "title": "Comparisons",
+    "section": "Looking at broad changes, vegetation conversion",
+    "text": "Looking at broad changes, vegetation conversion"
+  },
+  {
     "objectID": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
     "href": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
     "title": "Comparisons",
@@ -74,21 +95,42 @@
     "href": "past.html#map-of-most-prevalent-biophysical-settings",
     "title": "Past",
     "section": "Map of most prevalent Biophysical Settings",
-    "text": "Map of most prevalent Biophysical Settings\n\n\n\n\nHistorical Ecosystems"
+    "text": "Map of most prevalent Biophysical Settings"
   },
   {
-    "objectID": "past.html#historical-disturbances",
-    "href": "past.html#historical-disturbances",
+    "objectID": "past.html#chart-of-historic-annual-acres-burned-per-ecosystem",
+    "href": "past.html#chart-of-historic-annual-acres-burned-per-ecosystem",
     "title": "Past",
-    "section": "Historical disturbances",
-    "text": "Historical disturbances"
+    "section": "Chart of historic annual acres burned per ecosystem",
+    "text": "Chart of historic annual acres burned per ecosystem"
+  },
+  {
+    "objectID": "past.html#simplified-map-of-historical-fire-regimes",
+    "href": "past.html#simplified-map-of-historical-fire-regimes",
+    "title": "Past",
+    "section": "Simplified map of historical fire regimes",
+    "text": "Simplified map of historical fire regimes"
   },
   {
     "objectID": "past.html#data-table",
     "href": "past.html#data-table",
     "title": "Past",
     "section": "Data table",
-    "text": "Data table"
+    "text": "Data table\n\n\n\n\n \n  \n    ZONE \n    BPS_MODEL \n    BPS_NAME \n    GROUPVEG \n    FRI_REPLAC \n    FRI_MIXED \n    FRI_SURFAC \n    FRG_NEW \n    ACRES \n    REL_PERCENT \n  \n \n\n  \n    51 \n    14810_41_50_51_63 \n    Laurentian-Acadian Alkaline Conifer-Hardwood Swamp \n    Riparian \n    989 \n    NA \n    NA \n    V-B \n    430,879 \n    24.0 \n  \n  \n    51 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    379,395 \n    21.1 \n  \n  \n    51 \n    14770_40_41_50_51 \n    Boreal Acidic Peatland Systems \n    Riparian \n    716 \n    NA \n    123 \n    III-B \n    311,551 \n    17.4 \n  \n  \n    51 \n    13441_51 \n    Boreal Jack Pine-Black Spruce Forest-Pine Barrens \n    Conifer \n    34 \n    64 \n    7 \n    I-A \n    110,054 \n    6.1 \n  \n  \n    51 \n    13652_51 \n    Boreal White Spruce-Fir-Hardwood Forest-Coastal \n    Conifer \n    872 \n    1,306 \n    NA \n    V-B \n    109,018 \n    6.1 \n  \n  \n    51 \n    13651_51 \n    Boreal White Spruce-Fir-Hardwood Forest-Inland \n    Conifer \n    490 \n    524 \n    NA \n    V-A \n    95,366 \n    5.3 \n  \n  \n    51 \n    13660_51_63_64_65_66 \n    Laurentian-Acadian Pine-Hemlock-Hardwood Forest \n    Hardwood-Conifer \n    482 \n    998 \n    289 \n    III-B \n    95,515 \n    5.3 \n  \n  \n    51 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    92,585 \n    5.2 \n  \n  \n    51 \n    13620_51_63_64_65_66 \n    Laurentian-Acadian Northern Pine(-Oak) Forest \n    Hardwood-Conifer \n    309 \n    447 \n    65 \n    III-A \n    61,375 \n    3.4 \n  \n  \n    NA \n    NA \n    Open Water \n    Open Water \n    NA \n    NA \n    NA \n    NA \n    36,104 \n    2.0 \n  \n  \n    51 \n    14071_41_50_51 \n    Laurentian Pine-Oak Barrens \n    Hardwood-Conifer \n    109 \n    75 \n    5 \n    I-A \n    22,250 \n    1.2 \n  \n  \n    51 \n    14440_41_50_51 \n    Eastern Boreal Floodplain \n    Hardwood \n    NA \n    581 \n    312 \n    V-A \n    16,055 \n    0.9 \n  \n  \n    51 \n    13442_51 \n    Boreal Jack Pine-Black Spruce Forest-Spruce-Fir \n    Conifer \n    112 \n    NA \n    NA \n    IV-B \n    11,395 \n    0.6 \n  \n  \n    51 \n    14750_41_50_51_63_64_65_66 \n    Laurentian-Acadian Floodplain Systems \n    Riparian \n    NA \n    435 \n    68 \n    III-A \n    6,433 \n    0.4 \n  \n  \n    50 \n    14920_41_50_51_52_63 \n    Great Lakes Coastal Marsh Systems \n    Riparian \n    NA \n    NA \n    NA \n    NA \n    4,851 \n    0.3 \n  \n  \n    51 \n    14072_41_50_51 \n    Laurentian Pine-Oak Barrens-Jack Pine \n    Conifer \n    25 \n    46 \n    18 \n    I-B \n    6,082 \n    0.3 \n  \n  \n    51 \n    14920_41_50_51_52_63 \n    Great Lakes Coastal Marsh Systems \n    Riparian \n    NA \n    NA \n    NA \n    NA \n    3,416 \n    0.2 \n  \n  \n    50 \n    14810_41_50_51_63 \n    Laurentian-Acadian Alkaline Conifer-Hardwood Swamp \n    Riparian \n    989 \n    NA \n    NA \n    V-B \n    952 \n    0.1 \n  \n  \n    NA \n    NA \n    Barren-Rock/Sand/Clay \n    Barren-Rock/Sand/Clay \n    NA \n    NA \n    NA \n    NA \n    84 \n    0.0 \n  \n  \n    50 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    191 \n    0.0 \n  \n  \n    50 \n    13022_41_50_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Hemlock \n    Hardwood \n    2,040 \n    NA \n    NA \n    V-B \n    380 \n    0.0 \n  \n  \n    50 \n    13660_50 \n    Laurentian-Acadian Pine-Hemlock-Hardwood Forest \n    Hardwood-Conifer \n    483 \n    1,018 \n    291 \n    III-B \n    25 \n    0.0 \n  \n  \n    50 \n    14072_41_50_51 \n    Laurentian Pine-Oak Barrens-Jack Pine \n    Conifer \n    25 \n    46 \n    18 \n    I-B \n    4 \n    0.0 \n  \n  \n    50 \n    14120_39_40_41_42_43_50_51 \n    North-Central Interior Sand and Gravel Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    87 \n    II-A \n    24 \n    0.0 \n  \n  \n    50 \n    14210_31_38_42_43_44_50_51 \n    Central Tallgrass Prairie \n    Grassland \n    4 \n    NA \n    NA \n    II-A \n    2 \n    0.0 \n  \n  \n    50 \n    14660_50_51 \n    Great Lakes Wooded Dune and Swale \n    Riparian \n    3,715 \n    536 \n    NA \n    V-A \n    76 \n    0.0 \n  \n  \n    50 \n    14770_40_41_50_51 \n    Boreal Acidic Peatland Systems \n    Riparian \n    716 \n    NA \n    123 \n    III-B \n    721 \n    0.0 \n  \n  \n    51 \n    13023_51 \n    Laurentian-Acadian Northern Hardwoods Forest-Northern Sugar Maple-Basswood \n    Hardwood \n    1,016 \n    NA \n    NA \n    V-B \n    0 \n    0.0 \n  \n  \n    51 \n    14940_41_50_51 \n    Laurentian-Acadian Shrub-Herbaceous Wetland Systems \n    Riparian \n    18 \n    NA \n    NA \n    II-C \n    163 \n    0.0 \n  \n  \n    50 \n    13622_41_50 \n    Laurentian-Acadian Northern Pine(-Oak) Forest-Pine Dominated \n    Hardwood-Conifer \n    230 \n    NA \n    40 \n    I-C \n    494 \n    0.0"
+  },
+  {
+    "objectID": "present.html",
+    "href": "present.html",
+    "title": "Present",
+    "section": "",
+    "text": "Describe this page a bit"
+  },
+  {
+    "objectID": "present.html#summary",
+    "href": "present.html#summary",
+    "title": "Present",
+    "section": "Summary",
+    "text": "Summary"
   },
   {
     "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
@@ -145,5 +187,33 @@
     "title": "Present",
     "section": "Current disturbances",
     "text": "Current disturbances"
+  },
+  {
+    "objectID": "rcn.html",
+    "href": "rcn.html",
+    "title": "Looking forward",
+    "section": "",
+    "text": "Describe this page a bit"
+  },
+  {
+    "objectID": "rcn.html#summary",
+    "href": "rcn.html#summary",
+    "title": "Looking forward",
+    "section": "Summary",
+    "text": "Summary"
+  },
+  {
+    "objectID": "rcn.html#resilient-sites",
+    "href": "rcn.html#resilient-sites",
+    "title": "Looking forward",
+    "section": "Resilient Sites",
+    "text": "Resilient Sites"
+  },
+  {
+    "objectID": "rcn.html#connectivity",
+    "href": "rcn.html#connectivity",
+    "title": "Looking forward",
+    "section": "Connectivity",
+    "text": "Connectivity"
   }
 ]

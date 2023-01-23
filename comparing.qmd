@@ -1,6 +1,9 @@
 ---
 title: "Comparisons"
 ---
+Describe this page a bit
+
+## Summary
 
 ## Looking at broad changes, vegetation conversion
 
