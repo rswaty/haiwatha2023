@@ -10,6 +10,13 @@ library(tidyverse)
 Describe this page a bit
 
 ## Summary
+In general the Hiawatha National Forest, as of 2020, had not experienced substantial convertion of natural ecosystems to developed or agricultural types, though there are some patterns to note:
+
+* It is tempting to directly compare the past and present maps-do so with caution as the classification system has been modified.
+* Wetlands are still dominant regardless of classification system.
+* The aspen-birch EVT that was mapped in 2020 *may* have been a succession class in the historical ecosystems.  It is not clear from this analysis alone if this type has changed in extent, or not.
+* 
+
 
 ## Chart of most prevalent Existing Vegetation Types
 
@@ -137,7 +144,7 @@ evcChart
 
 ## Chart of Existing Vegetation Height
 
-```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE}
+```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
 
 # load evh attribute table
 evhname <- read.csv(file = "data/evh_aoi_attributes.csv")
