@@ -108,7 +108,7 @@ library(kableExtra)
 kable(clean_bps_data,
       format.args = list(big.mark = ",")) %>%
   kable_styling(
-    font_size = 10,
+    font_size = 12,
     bootstrap_options = c("striped", "hover", "condensed")
   ) 
 
