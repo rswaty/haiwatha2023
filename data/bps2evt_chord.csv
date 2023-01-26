@@ -1,0 +1,29 @@
+BPS,EVT,ACRES
+BPS  Conifer,EVT  Conifer,157622
+BPS  Conifer,EVT  Hardwood,72473
+BPS  Conifer,Developed,31616
+BPS  Conifer,EVT  Riparian,30181
+BPS  Conifer,EVT  Agricultural,15011
+BPS  Conifer,EVT  Conifer-Hardwood,13612
+BPS  Conifer,Exotics,11390
+BPS  Hardwood,EVT  Hardwood,348373
+BPS  Hardwood,EVT  Conifer,50073
+BPS  Hardwood,Developed,30652
+BPS  Hardwood,EVT  Agricultural,20041
+BPS  Hardwood,EVT  Riparian,18085
+BPS  Hardwood,EVT  Conifer-Hardwood,13347
+BPS  Hardwood,Exotics,8017
+BPS  Hardwood-Conifer,EVT  Conifer,70790
+BPS  Hardwood-Conifer,EVT  Hardwood,52583
+BPS  Hardwood-Conifer,Developed,18263
+BPS  Hardwood-Conifer,EVT  Riparian,13525
+BPS  Hardwood-Conifer,EVT  Conifer-Hardwood,11980
+BPS  Hardwood-Conifer,EVT  Agricultural,8170
+BPS  Hardwood-Conifer,Exotics,4345
+BPS  Riparian,EVT  Riparian,660185
+BPS  Riparian,EVT  Conifer,51606
+BPS  Riparian,EVT  Hardwood,32249
+BPS  Riparian,Developed,9408
+BPS  Riparian,Exotics,2370
+BPS  Riparian,EVT  Agricultural,1854
+BPS  Riparian,EVT  Conifer-Hardwood,1342

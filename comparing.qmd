@@ -1,11 +1,83 @@
 ---
 title: "Comparisons"
 ---
+
+```{r include=FALSE, echo=FALSE, message=FALSE, warning=FALSE}
+library(chorddiag)
+library(htmlwidgets)
+library(igraph)
+library(readr)
+library(tidygraph)
+library(tidyverse)
+
+```
+
 Describe this page a bit
 
 ## Summary
 
 ## Looking at broad changes, vegetation conversion
+
+```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
+# read in data
+chord_df<- read_csv("data/bps2evt_chord.csv")
+#view(histFireGVchord)
+
+#convert to matrix
+matrix_df <-as.matrix(as_adjacency_matrix(as_tbl_graph(chord_df),attr = "ACRES"))
+
+#clean up matrix (could be cleaner!)
+matrix_df = subset(matrix_df, select = -c(1:4))
+
+matrix_df <- matrix_df[-c(5:11),]
+
+#make a custom color pallet
+
+# ORIGINAL
+groupColors <-c( "#1d4220", # conifer OK
+                 "#56bf5f", # hardwood OK
+                 "#397d3f", # hardwood-conifer OK
+                 "#7db7c7", # riparian OK
+                 "#1d4220",
+                 "#eb4034", 
+                 "#b0af9e",
+                 "#7db7c7",
+                 "#f5e942",
+                 "#397d3f",
+                 "#eb4034"
+                 
+
+)
+
+
+
+#make chord diagram
+chord<-chorddiag(data = matrix_df,
+                 type = "bipartite",
+                 groupColors = groupColors,
+                 groupnamePadding = 10,
+                 groupPadding = 3,
+                 groupnameFontsize = 11 ,
+                 showTicks = FALSE,
+                 margin=150,
+                 tooltipGroupConnector = "    &#x25B6;    ",
+                 chordedgeColor = "#363533"
+)
+chord 
+
+#save then print to have white background
+htmlwidgets::saveWidget(chord,
+                        "chord.html",
+                        background = "white",
+                        selfcontained = TRUE
+                        )
+```
+
+
+
+<iframe src="chord.html" height="720" width="720" style="border: 1px solid #464646;" allowfullscreen="" allow="autoplay" data-external=".5"></iframe>
+
+<br>
 
 ## Succession classes for most dominant Biophysical Settings
 
