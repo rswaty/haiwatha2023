@@ -81,4 +81,10 @@ htmlwidgets::saveWidget(chord,
 
 ## Succession classes for most dominant Biophysical Settings
 
+
+
+
+
+
+
 ## Comparing past to present disturbances
