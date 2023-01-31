@@ -83,6 +83,10 @@ htmlwidgets::saveWidget(chord,
 
 
 
+![](images/sclass_barplot.png){width=100%}
+
+
+
 
 
 
