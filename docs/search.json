@@ -201,5 +201,33 @@
     "title": "Looking forward",
     "section": "Connectivity",
     "text": "Connectivity"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "By Megan Dettenmaier\nLANDFIRE provides 25+ national geo-spatial layers (e.g. vegetation, fuel, disturbance, etc.), databases, and ecological models that are available to the public for the U.S. and insular areas.\nOur direct connection to the LANDFIRE Program offers a comprehensive range of nationwide geospatial data products that reflect current and historic conditions. These products also include ecosystem dynamic models that can be used for conservation, fire planning, and land management decisions.\nLANDFIRE’s mission is to provide agency leaders and managers with a common “all-lands” data set of vegetation and wildland fire/fuels information for strategic fire and resource management planning and analysis.\n\n“Advancing conservation outcomes through collaborative ecosystem science”"
+  },
+  {
+    "objectID": "about.html#what-are-biophysical-settings-products",
+    "href": "about.html#what-are-biophysical-settings-products",
+    "title": "About",
+    "section": "What are Biophysical Settings Products?",
+    "text": "What are Biophysical Settings Products?\nA Biophysical Setting (BpS) is a concept that represents the vegetation that may have been dominant on the landscape prior to European colonization of North America and is based on both the current biophysical environment and an approximation of the historical disturbance regime.\nLANDFIRE collaborated with experts around the country to create a description and model for every BpS it mapped across the US.\nCheck out the vegetation modeling website to learn how to integrate BpS into your work.\n\nBiophysical Settings Resources\nVegetation dynamics models: a comprehensive set for natural resource assessment and planning in the United States. Kori Blankenship, Randy Swaty, Kimberly R. Hall, Sarah Hagen, Kelly Pohl, Ayn Shlisky Hunt, Jeannie Patton, Leonardo Frid, Jim Smith\n\n\n\n\n\nBpS Descriptions and Models information\nInformation about the BpS Spatial Data"
+  },
+  {
+    "objectID": "about.html#what-are-existing-vegetation-products",
+    "href": "about.html#what-are-existing-vegetation-products",
+    "title": "About",
+    "section": "What are Existing Vegetation Products",
+    "text": "What are Existing Vegetation Products\n‘LANDFIRE (LF) existing vegetation layers describe the following elements: Existing Vegetation Type (EVT), Existing Vegetation Canopy Cover (EVC), and Existing Vegetation Height (EVH). These layers are created using predictive landscape models based on extensive field-referenced data, satellite imagery and biophysical gradient layers using classification and regression trees.’ (from https://landfire.gov/vegetation.php)\n\nExisting Vegetation Resources\n\n\n\n\n\nExisting Vegetation Cover\nExisting Vegetation Height\nExisting Vegetation Type"
+  },
+  {
+    "objectID": "about.html#intersections-landfire-supports-certified-sustainable-forest-management",
+    "href": "about.html#intersections-landfire-supports-certified-sustainable-forest-management",
+    "title": "About",
+    "section": "Intersections: LANDFIRE Supports Certified Sustainable Forest Management",
+    "text": "Intersections: LANDFIRE Supports Certified Sustainable Forest Management\nIn 2022, members of the Conservation Data Lab used the Ataya Forest Tract near Knoxville, TN as an example landscape for conducting a comprehensive GIS analysis. They compared historical conditions to the current state of the forest while incorporating LANDFIRE’s departure and BpS data (among others). This tutorial provides procedures for forest managers to conduct (similar) analyses using LANDFIRE data.\nCheck out the guide.\n\n\n“Ataya is of conservation interest due to the relatively high connectivity, large average land parcel size and projected climate change resiliency.”\n\n\nMap by Keith Phelps"
   }
 ]
