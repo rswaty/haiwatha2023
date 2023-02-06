@@ -4,7 +4,7 @@ title: "Looking forward"
 Describe this page a bit
 
 ## Summary
-There are many ways to explore what a landscape might look like in the future.  Below are maps of datasets produced by the [Center for Resilient Conservation Science](https://crcs.tnc.org/) that help us assess "the stage" so to speak, or the potential of a landscape to cope with climate change.  
+There are many ways to explore what a landscape might look like in the future.  Below are maps of datasets produced by the [Center for Resilient Conservation Science](https://crcs.tnc.org/) that help us assess "the stage" so to speak, or the potential of a landscape to cope with climate change.  Exploring places where resiliency, connectivity and management opportunities line up may help hedge against climate stressors. 
 
 ## Resilient Sites
 "A site’s Resilience Score estimates its capacity to maintain species diversity and ecological function as the climate changes. It was determined by evaluating and quantifying physical characteristics that foster resilience, particularly the site’s landscape diversity and local connectedness. The score is calculated within ecoregions based on all cells of the same geophysical setting and is described on a relative basis as above or below the average." (From https://maps.tnc.org/resilientland/coreConcepts.html)
