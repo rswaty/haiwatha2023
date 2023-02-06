@@ -1,5 +1,6 @@
 ---
-title: "Hiawatha National Forest Ecological Assessment, 2023 "
+title: "Hiawatha National Forest Ecological Assessment, 2023"
+author: "Randy Swaty with substantial code contributions from Myles Walimaa"
 ---
 
 ## Goals of this assessment
@@ -10,6 +11,16 @@ In general we will use [LANDFIRE](https://landfire.gov/) and [Center for Resilie
 2. Explore historical disturbance regimes
 3. Summarize patterns of change and management opportunities
 4. Present maps of landscape-scale connectivity and resilient sites
+
+Outputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively.
+
+
+## Interacting with this Web-Hosted Information Tool (WHIT)
+A few notes about using this site:
+* This platform is web-hosted so you can simply share a link with collaborators for their review.  https://rswaty.github.io/hiawatha2023/
+* Maps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems).  You can use the "zoom" tool to take a closer look.
+* All maps, input datasets and further assistance can be obtained by contacting the author, [Randy Swaty](mailto:rswaty@tnc.org).
+
 
 ## Location of this assessment
 

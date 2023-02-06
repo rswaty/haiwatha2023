@@ -8,17 +8,17 @@ Historically 10 historical ecosystems covered roughly 90% of the Hiawatha Nation
 
 * Wetland types (primarily the 'Laurentian-Acadian Alkaline Conifer-Hardwood Swamp' and 'Boreal Acidic Peatland Systems') were present on > 40% of the area.
 * The 'Laurentian-Acadian Northern Hardwoods Forest-Hemlock' ecosystem covered ~20% of the area
-* Roughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years.
-
+* Roughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years.  There was roughly 18k acres of surface fire per year historically.  Wind/weather/stress was the second-most common disturbance, impacting roughly 7k acres per year.  
 
 ## Chart of most prevalent Biophysical Settings
 
 <br>
 
 
-```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10}
+```{r bps chart, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=9}
 library(tidyverse)
 library(scales)
+library(stringr)
 
 bps_data <- read.csv("data/bps_aoi_attributes.csv")
 
@@ -39,9 +39,11 @@ bpsChart <-
     caption = "Data from landfire.gov.",
     x = "",
     y = "Percent of landscape") +
-  scale_x_discrete(limits = rev(bpsname$BPS_NAME)) +
+  scale_x_discrete(limits = rev(bpsname$BPS_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
   coord_flip() +
-  theme_bw()
+  theme_bw(base_size = 14)
+
 
 bpsChart
 ```
@@ -58,7 +60,7 @@ bpsChart
 
 ## Chart of historic annual acres burned per ecosystem
 
-```{r fire bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+```{r fire bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 # read bps attribute table .csv and summarize
 annualFire <- bps_data %>%
   mutate(annual_fire_acres = ((1/FRI_ALLFIR)*ACRES)) %>%
@@ -73,15 +75,16 @@ fireChart <-
   ggplot(data = annualFire, aes(x = BPS_NAME, y = acres)) +
   geom_bar(stat = "identity") +
   labs(
-    title = "Historical Annual Acres Burned for the Deer Creek Landscape",
-    subtitle = "Cumulative estimates of all fire types prior to pre-European colonization",
+    title = "Cumulative estimates of all fire types prior to pre-European colonization",
+    subtitle = "Surface (0-25% top-kill), mixed (26-75%) and replacement fire (>76%)",
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Acres") +
-  scale_x_discrete(limits = rev(annualFire$BPS_NAME)) +
+  scale_x_discrete(limits = rev(annualFire$BPS_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
   scale_y_continuous(name = 'Acres', labels = comma) +
   coord_flip() +
-  theme_bw()
+  theme_bw(base_size = 14)
 
 fireChart
 
@@ -185,7 +188,7 @@ library(kableExtra)
 kable(clean_bps_data,
       format.args = list(big.mark = ",")) %>%
   kable_styling(
-    font_size = 12,
+    font_size = 10,
     bootstrap_options = c("striped", "hover", "condensed")
   ) 
 

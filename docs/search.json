@@ -18,21 +18,21 @@
     "href": "comparing.html",
     "title": "Comparisons",
     "section": "",
-    "text": "Describe this page a bit"
+    "text": "Outputs on this page compare “Past” conditions with “Present” conditions. Results here are intended for exploration and illumination of issues to explore further. As noted on the “Present” page there are differences in the classification scheme so direct comparisons should be viewed with caution."
   },
   {
     "objectID": "comparing.html#summary",
     "href": "comparing.html#summary",
     "title": "Comparisons",
     "section": "Summary",
-    "text": "Summary"
+    "text": "Summary\nThere has not been broad whole conversion of ecosystems from one to another (explore circular chord diagram below). However, due to harvests, fire suppression and other management actions (in addtion to changes in natural processes) there have been some notable changes in succession classes (see “Succession classes for most dominant Biophysical Settings”) section below:\n\nPerhaps the most interesting broad-scale change is conversion of ‘conifer’ types to ‘hardwood’, presumably due to fire suppression.\nSome ecosystems have sizable over/under-representation of successin classes on the landscape today compared to modeled historic. For example:\n\nLaurentian-Acadian Northern Hardwoods Forest - Hemlock is missing succession class D\nClasses A-C under represented in the Boreal Jack Pine-Black Spruce Forest - Pine Barrens\nClass A and B under reprented in the Boreal Acidic Peatland Systems\n\n\nThese differences may or may not be ‘real’ on the ground and/or may not be a management priority."
   },
   {
     "objectID": "comparing.html#looking-at-broad-changes-vegetation-conversion",
     "href": "comparing.html#looking-at-broad-changes-vegetation-conversion",
     "title": "Comparisons",
     "section": "Looking at broad changes, vegetation conversion",
-    "text": "Looking at broad changes, vegetation conversion"
+    "text": "Looking at broad changes, vegetation conversion\nThis interactive ‘chord’ diagram allows you to"
   },
   {
     "objectID": "comparing.html#succession-classes-for-most-dominant-biophysical-settings",
@@ -53,7 +53,7 @@
     "href": "index.html",
     "title": "Hiawatha National Forest Ecological Assessment, 2023",
     "section": "",
-    "text": "In general we will use LANDFIRE and Center for Resilient Conservation Science products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\nPresent maps of landscape-scale connectivity and resilient sites"
+    "text": "In general we will use LANDFIRE and Center for Resilient Conservation Science products to:\n\nMap and summarize past and present ecosystems and ecosystem conditions\nExplore historical disturbance regimes\nSummarize patterns of change and management opportunities\nPresent maps of landscape-scale connectivity and resilient sites\n\nOutputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively."
   },
   {
     "objectID": "index.html#location-of-this-assessment",
@@ -81,7 +81,7 @@
     "href": "past.html#summary",
     "title": "Past",
     "section": "Summary",
-    "text": "Summary\nHistorically 10 historical ecosystems covered roughly 90% of the Hiawatha National Forest. More specifically:\n\nWetland types (primarily the ‘Laurentian-Acadian Alkaline Conifer-Hardwood Swamp’ and ‘Boreal Acidic Peatland Systems’) were present on > 40% of the area.\nThe ‘Laurentian-Acadian Northern Hardwoods Forest-Hemlock’ ecosystem covered ~20% of the area\nRoughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years."
+    "text": "Summary\nHistorically 10 historical ecosystems covered roughly 90% of the Hiawatha National Forest. More specifically:\n\nWetland types (primarily the ‘Laurentian-Acadian Alkaline Conifer-Hardwood Swamp’ and ‘Boreal Acidic Peatland Systems’) were present on > 40% of the area.\nThe ‘Laurentian-Acadian Northern Hardwoods Forest-Hemlock’ ecosystem covered ~20% of the area\nRoughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years. There was roughly 18k acres of surface fire per year historically. Wind/weather/stress was the second-most common disturbance, impacting roughly 7k acres per year."
   },
   {
     "objectID": "past.html#chart-of-most-prevalent-biophysical-settings",
@@ -123,14 +123,14 @@
     "href": "present.html",
     "title": "Present",
     "section": "",
-    "text": "Describe this page a bit"
+    "text": "All outputs on this page generated with the most recent LANDFIRE Existing Vegetation Type, Cover and Height datasets, which represent conditions on the ground in 2020."
   },
   {
     "objectID": "present.html#summary",
     "href": "present.html#summary",
     "title": "Present",
     "section": "Summary",
-    "text": "Summary\nIn general the Hiawatha National Forest, as of 2020, had not experienced substantial convertion of natural ecosystems to developed or agricultural types, though there are some patterns to note:\n\nIt is tempting to directly compare the past and present maps-do so with caution as the classification system has been modified.\nWetlands are still dominant regardless of classification system.\nThe aspen-birch EVT that was mapped in 2020 may have been a succession class in the historical ecosystems. It is not clear from this analysis alone if this type has changed in extent, or not."
+    "text": "Summary\nIn general the Hiawatha National Forest, as of 2020, had not experienced substantial conversion of natural ecosystems to developed or agricultural types, though there are some patterns to note:\n\nIt is tempting to directly compare the past and present maps-do so with caution as the classification system has been modified.\nWetlands are still dominant regardless of classification system.\nThe aspen-birch EVT that was mapped in 2020 may have been a succession class in the historical ecosystems. It is not clear from this analysis alone if this type has changed in extent, or not.\nThere are considerable amounts of fire-dependent ecosystems, such as the ‘Jack Pine-Red Pine’. Many of these pixels are adjacent to wetland types that can burn under the right conditions."
   },
   {
     "objectID": "present.html#chart-of-most-prevalent-existing-vegetation-types",
@@ -236,5 +236,19 @@
     "title": "Past",
     "section": "All historical disturbances per ecosystem",
     "text": "All historical disturbances per ecosystem\n\n\n\n\n\n\nSelect ecosystem"
+  },
+  {
+    "objectID": "index.html#interacting-with-this-web-hosted-information-platform-whip",
+    "href": "index.html#interacting-with-this-web-hosted-information-platform-whip",
+    "title": "Hiawatha National Forest Ecological Assessment, 2023",
+    "section": "Interacting with this web-hosted information platform (WHIP :))",
+    "text": "Interacting with this web-hosted information platform (WHIP :))\nA few notes about using this site: * This platform is web-hosted so you can simply share a link with collaborators for their review. https://rswaty.github.io/hiawatha2023/ * Maps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems). You can use the “zoom” tool to take a closer look. * All maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty."
+  },
+  {
+    "objectID": "index.html#interacting-with-this-web-hosted-information-tool-whit",
+    "href": "index.html#interacting-with-this-web-hosted-information-tool-whit",
+    "title": "Hiawatha National Forest Ecological Assessment, 2023",
+    "section": "Interacting with this Web-Hosted Information Tool (WHIT)",
+    "text": "Interacting with this Web-Hosted Information Tool (WHIT)\nA few notes about using this site: * This platform is web-hosted so you can simply share a link with collaborators for their review. https://rswaty.github.io/hiawatha2023/ * Maps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems). You can use the “zoom” tool to take a closer look. * All maps, input datasets and further assistance can be obtained by contacting the author, Randy Swaty."
   }
 ]

@@ -7,20 +7,21 @@ library(tidyverse)
 ```
 
 
-Describe this page a bit
+All outputs on this page generated with the most recent LANDFIRE [Existing Vegetation Type, Cover and Height](https://landfire.gov/vegetation.php){target="blank"} datasets, which represent conditions on the ground in 2020.  
+
 
 ## Summary
-In general the Hiawatha National Forest, as of 2020, had not experienced substantial convertion of natural ecosystems to developed or agricultural types, though there are some patterns to note:
+In general the Hiawatha National Forest, as of 2020, had not experienced substantial conversion of natural ecosystems to developed or agricultural types, though there are some patterns to note:
 
 * It is tempting to directly compare the past and present maps-do so with caution as the classification system has been modified.
 * Wetlands are still dominant regardless of classification system.
 * The aspen-birch EVT that was mapped in 2020 *may* have been a succession class in the historical ecosystems.  It is not clear from this analysis alone if this type has changed in extent, or not.
-* 
+* There are considerable amounts of fire-dependent ecosystems, such as the 'Jack Pine-Red Pine'.  Many of these pixels are adjacent to wetland types that can burn under the right conditions. 
 
 
 ## Chart of most prevalent Existing Vegetation Types
 
-```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+```{r evt chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 evtname <- read.csv(file = "data/evt_aoi_attributes.csv") %>%
   group_by(EVT_NAME) %>%
   summarize(ACRES = sum(ACRES),
@@ -38,9 +39,10 @@ evtChart <-
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent of landscape") +
-  scale_x_discrete(limits = rev(evtname$EVT_NAME)) +
+  scale_x_discrete(limits = rev(evtname$EVT_NAME),
+                   labels = function(x) str_wrap(x, width = 18)) +
   coord_flip() +
-  theme_bw()
+  theme_bw(base_size = 14)
 
 evtChart
 ```
@@ -58,7 +60,7 @@ evtChart
 
 ## Chart of Existing Vegetation Cover
 
-```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
 
 # create "type" column based on conditions
@@ -130,7 +132,7 @@ evcChart <-
     y = "Percent of landscape") +
   scale_fill_manual(values = cols, name = "") +
   coord_flip() +
-  theme_bw()
+  theme_bw(base_size = 14)
 
 evcChart
 
@@ -144,7 +146,7 @@ evcChart
 
 ## Chart of Existing Vegetation Height
 
-```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10}
+```{r evh chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
 
 # load evh attribute table
 evhname <- read.csv(file = "data/evh_aoi_attributes.csv")
@@ -212,7 +214,7 @@ ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = legend)) +
     y = "Percent of landscape") +
   scale_fill_manual(values = cols, name = "") +
   coord_flip() +
-  theme_bw()
+  theme_bw(base_size = 14)
 
 evhChart
 ```
