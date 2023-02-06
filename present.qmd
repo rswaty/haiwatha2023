@@ -60,7 +60,7 @@ evtChart
 
 ## Chart of Existing Vegetation Cover
 
-```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
+```{r evc chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=10}
 evcname <- read.csv("data/evc_aoi_attributes.csv")
 
 # create "type" column based on conditions
