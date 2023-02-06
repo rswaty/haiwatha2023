@@ -126,7 +126,7 @@ evcChart <-
   geom_bar(stat = "identity") +
   labs(
     title = "Existing Vegetation Cover",
-    subtitle = "Represents canopy cover per dominant lifeform, ca 2022",
+    subtitle = "Represents canopy cover per dominant lifeform, ca 2020",
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent of landscape") +
@@ -208,7 +208,7 @@ ggplot(data = evhgroup, aes(x = label, y = REL_PERCENT, fill = legend)) +
   geom_bar(stat = "identity") +
   labs(
     title = "Existing Vegetation Height",
-    subtitle = "Represents canopy height of dominant lifeform ca2022",
+    subtitle = "Represents canopy height of dominant lifeform ca2020",
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent of landscape") +

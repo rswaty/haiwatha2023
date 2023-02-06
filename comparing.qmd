@@ -97,7 +97,7 @@ htmlwidgets::saveWidget(chord,
 
 
 
-```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
+```{r scls chart, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=9}
 
 BPS_SCLS2 <- read.csv("data/bpsScls2.csv")
 
@@ -140,7 +140,7 @@ sclasplot <-
     caption = "\nData from landfire.gov.",
     x = "",
     y = "Percent")+
-  theme_minimal(base_size = 12)+
+  theme_minimal(base_size = 14)+
   theme(plot.caption = element_text(hjust = 0, face= "italic"), #Default is hjust=1
         plot.title.position = "plot", #NEW parameter. Apply for subtitle too.
         plot.caption.position =  "plot") +
