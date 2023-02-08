@@ -15,7 +15,7 @@ In general we will use [LANDFIRE](https://landfire.gov/) and [Center for Resilie
 Outputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively.
 
 
-## Interacting with this Web-Hosted Information Tool (WHIT)
+## Interacting with this web report
 A few notes about using this site:
 * This platform is web-hosted so you can simply share a link with collaborators for their review.  https://rswaty.github.io/hiawatha2023/
 * Maps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems).  You can use the "zoom" tool to take a closer look.
