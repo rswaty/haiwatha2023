@@ -1,7 +1,13 @@
 ---
 title: "Past"
 ---
-LANDFIRE's [Biophysical Settings](https://landfire.gov/bps.php){target="blank"} (BpSs, aka "Historical Ecosystems") represent "the vegetation system that may have been dominant on the landscape prior to Euro-American settlement and is based on both the current biophysical environment and an approximation of the historical disturbance regime." (from https://landfire.gov/bps.php). We will use this data to explore the most prevalent BpSs in a chart and map, and also the historical disturbance data that are linked to the BpSs.
+<br>
+
+>*BpS models represent the vegetation system that may have been dominant on the landscape prior to Euro-American settlement. These models are based on a combination of the current environment and an approximation of the historical disturbance regime.* [Read more](https://landfire.gov/bps.php){target="blank"}.
+
+Check out this 3-minute tutorial for a quick refresher on the [basics of Biophysical Settings Models](https://youtu.be/xjaWJCe7udQ){target="blank"}.
+
+Use this page as a starting point to explore the most prevalent BpSs on the Hiawatha National Forest. In addition to the charts and maps, the historical disturbance data can be directly accessed using this site. 
 
 ## Summary
 Historically 10 historical ecosystems covered roughly 90% of the Hiawatha National Forest.  More specifically:
@@ -10,7 +16,7 @@ Historically 10 historical ecosystems covered roughly 90% of the Hiawatha Nation
 * The 'Laurentian-Acadian Northern Hardwoods Forest-Hemlock' ecosystem covered ~20% of the area
 * Roughly 30% of the Hiawatha had ecosytems with Mean Fire Return Intervals (MFRI) of ~100 years or less, with ~10% having a MFRI of > 10 years.  There was roughly 18k acres of surface fire per year historically.  Wind/weather/stress was the second-most common disturbance, impacting roughly 7k acres per year.  
 
-## Chart of most prevalent Biophysical Settings
+## Most prevalent Biophysical Settings
 
 <br>
 
@@ -58,7 +64,7 @@ bpsChart
 
 <br>
 
-## Chart of historic annual acres burned per ecosystem
+## Historic Annual Acres Burned (per ecosystem)
 
 ```{r fire bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=8}
 # read bps attribute table .csv and summarize
@@ -94,12 +100,12 @@ ggsave("./OUTPUTS/fireChart.png", width = 12, height = 5)
 
 <br>
 
-## Simplified map of historical fire regimes
+## Top Historical Fire Regimes
 
 ![](images/mfri.jpg){width=100%}
 
 
-## All historical disturbances per ecosystem
+## Historical Disturbances (per ecosystem)
 
 ```{r all disturbances, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
 

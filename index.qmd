@@ -3,27 +3,24 @@ title: "Hiawatha National Forest Ecological Assessment, 2023"
 author: "Randy Swaty with substantial code contributions from Myles Walimaa"
 ---
 
-## Goals of this assessment
+## Goals of this demonstration
 
-In general we will use [LANDFIRE](https://landfire.gov/) and [Center for Resilient Conservation Science](https://crcs.tnc.org/) products to:
+We will use [LANDFIRE](https://landfire.gov/){target="blank"} products to:
 
-1. Map and summarize past and present ecosystems and ecosystem conditions
-2. Explore historical disturbance regimes
+1. Characterize and map past and present ecosystem conditions
+2. Explore historical disturbance patterns
 3. Summarize patterns of change and management opportunities
-4. Present maps of landscape-scale connectivity and resilient sites
-
-Outputs presented here are the tip of the iceberg of what can be done with these datasets and are intended to help begin brainstorming about appropriate questions that could be explored collaboratively.
 
 
-## Interacting with this web report
-A few notes about using this site:
+The following charts, maps, and graphs are based on current LANDFIRE products, and provide a starting point for further analysis.
 
-* This platform is web-hosted so you can simply share a link with collaborators for their review.  https://rswaty.github.io/hiawatha2023/
-* Maps and charts are intended to represent general patterns, and are almost always limited to most common types (e.g., ecosystems).  You can use the "zoom" tool to take a closer look.
-* All maps, input datasets and further assistance can be obtained by contacting the author, [Randy Swaty](mailto:rswaty@tnc.org).
+This demonstration will:
 
+* Provide context for the past and present ecosystem conditions the Hiawatha National Forest
+* Demonstrate the power of data visualization to explore ecological patterns and functions using LANDFIRE products
+* Facilitate an understanding of historical and current conditions on a regional scale
 
-## Location of this assessment
+## Location
 
 The assessment area is essentially the Hiawatha National Forest Proclamation Boundary plus a 1 mile buffer (supplied by Sam Adams, GIS coordinator).  
 
@@ -62,7 +59,12 @@ tmap_mode("view")
 #   st_sf()
 
 # create a quick interactive map
-quickmap <- qtm(shp, borders = "darkgreen",  check.and.fix = TRUE)
+quickmap <- qtm(shp, 
+                borders = "darkgreen", 
+                fill = NULL, 
+                check.and.fix = TRUE, 
+                basemaps = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
+                title = 'Wyoming Sagebrush Subregion',)
 
 quickmap
 

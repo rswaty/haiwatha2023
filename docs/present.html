@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.475">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,11 +36,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -98,10 +98,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Comparing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./rcn.html">
- <span class="menu-text">Looking forward</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="./about.html">
  <span class="menu-text">About</span></a>
   </li>  
@@ -124,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#chart-of-most-prevalent-existing-vegetation-types" id="toc-chart-of-most-prevalent-existing-vegetation-types" class="nav-link" data-scroll-target="#chart-of-most-prevalent-existing-vegetation-types">Chart of most prevalent Existing Vegetation Types</a></li>
+  <li><a href="#most-prevalent-existing-vegetation-types" id="toc-most-prevalent-existing-vegetation-types" class="nav-link" data-scroll-target="#most-prevalent-existing-vegetation-types">Most prevalent Existing Vegetation Types</a></li>
   <li><a href="#map-of-most-prevalent-existing-vegetation-types" id="toc-map-of-most-prevalent-existing-vegetation-types" class="nav-link" data-scroll-target="#map-of-most-prevalent-existing-vegetation-types">Map of most prevalent Existing Vegetation Types</a></li>
   <li><a href="#chart-of-existing-vegetation-cover" id="toc-chart-of-existing-vegetation-cover" class="nav-link" data-scroll-target="#chart-of-existing-vegetation-cover">Chart of Existing Vegetation Cover</a></li>
   <li><a href="#map-of-existing-vegetation-cover" id="toc-map-of-existing-vegetation-cover" class="nav-link" data-scroll-target="#map-of-existing-vegetation-cover">Map of Existing Vegetation Cover</a></li>
@@ -153,7 +149,13 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>All outputs on this page generated with the most recent LANDFIRE <a href="https://landfire.gov/vegetation.php" target="blank">Existing Vegetation Type, Cover and Height</a> datasets, which represent conditions on the ground in 2020.</p>
+<p>LANDFIRE’s <a href="https://landfire.gov/vegetation.php" target="blank">Existing Vegetation Type, Cover and Height</a> datasets describe vegetation conditions.</p>
+<ul>
+<li>Existing Vegetation Type (EVT) - represents the current distribution of the terrestrial ecological systems classification, developed by NatureServe for the western hemisphere, through 2016</li>
+<li>Existing Vegetation Cover (EVC) - represents the vertically projected percent cover of the live canopy layer for a 30-m cell</li>
+<li>Existing Vegetation Height (EVH) - represents the average height of the dominant vegetation for a 30-m cell</li>
+</ul>
+<p><a href="https://landfire.gov/vegetation.php" target="blank">Read more about LANDFIRE Vegetation Products</a></p>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
 <p>In general the Hiawatha National Forest, as of 2020, had not experienced substantial conversion of natural ecosystems to developed or agricultural types, though there are some patterns to note:</p>
@@ -164,8 +166,8 @@ ul.task-list li input[type="checkbox"] {
 <li>There are considerable amounts of fire-dependent ecosystems, such as the ‘Jack Pine-Red Pine’. Many of these pixels are adjacent to wetland types that can burn under the right conditions.</li>
 </ul>
 </section>
-<section id="chart-of-most-prevalent-existing-vegetation-types" class="level2">
-<h2 class="anchored" data-anchor-id="chart-of-most-prevalent-existing-vegetation-types">Chart of most prevalent Existing Vegetation Types</h2>
+<section id="most-prevalent-existing-vegetation-types" class="level2">
+<h2 class="anchored" data-anchor-id="most-prevalent-existing-vegetation-types">Most prevalent Existing Vegetation Types</h2>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="present_files/figure-html/evt chart-1.png" class="img-fluid" width="960"></p>
@@ -318,7 +320,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  let localAlternateSentinel = 'alternate';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 

@@ -12,9 +12,17 @@ library(tidyverse)
 
 ```
 
-Outputs on this page compare "Past" conditions with "Present" conditions.  Results here are intended for exploration and illumination of issues to explore further.  As noted on the "Present" page there are differences in the classification scheme so direct comparisons should be viewed with caution.  
+### Comparing Past vs. Present Conditions
 
-## Summary
+Using LANDFIRE’s BpS products, we explore two different ways to visualize past vs. current vegetation patterns. 
+
+* First we present **changes in broad ecosystem types** using an interactive comparison diagram. 
+
+* Second we compare **amounts of succession classes** (past and present) for the most prevalent ecosystems. 
+
+## Comparing Broad Vegetation Trends
+
+### Summary
 There has not been broad whole conversion of ecosystems from one to another (explore circular chord diagram below).  However, due to harvests, fire suppression and other management actions (in addtion to changes in natural processes) there have been some notable changes in succession classes (see "Succession classes for most dominant Biophysical Settings") section below:
 
 * Perhaps the most interesting broad-scale change is conversion of 'conifer' types to 'hardwood', presumably due to fire suppression.
@@ -25,12 +33,6 @@ There has not been broad whole conversion of ecosystems from one to another (exp
     
 These differences may or may not be 'real' on the ground and/or may not be a management priority.  
 
-## Looking at broad changes, vegetation conversion
-
-This interactive 'chord' diagram allows you to explore changes on the landscape.  To use:
-* Hover over the outer bands to see connections.  For example, if you over over the dark green outer band of the "Past Conifer" group you can see that some is now mapped as converted, some hardwood, etc., and that the majority is still mapped as conifer.
-* Alternatively, if you hover over the orange outer band of "Hardwood" you can see what the present extent of hardwoods vegetation was historically.
-* The popups contain acres for the band.
 
 ```{r chord, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
 # read in data
@@ -53,7 +55,7 @@ groupColors <-c( "#1d4220", # conifer OK
                  "#397d3f", # hardwood-conifer OK
                  "#7db7c7", # riparian OK
                  "#1d4220",
-                 "#eb4034", 
+                 "#56bf5f", 
                  "#b0af9e",
                  "#7db7c7",
                  "#f5e942",
@@ -71,9 +73,9 @@ chord<-chorddiag(data = matrix_df,
                  groupColors = groupColors,
                  groupnamePadding = 10,
                  groupPadding = 3,
-                 groupnameFontsize = 11 ,
+                 groupnameFontsize = 12,
                  showTicks = FALSE,
-                 margin=150,
+                 margin=130,
                  tooltipGroupConnector = "    &#x25B6;    ",
                  chordedgeColor = "#363533"
 )
