@@ -64,7 +64,7 @@ quickmap <- qtm(shp,
                 fill = NULL, 
                 check.and.fix = TRUE, 
                 basemaps = 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}',
-                title = 'Wyoming Sagebrush Subregion',)
+                title = 'Hiawatha National Forest Fuels Assessment Boundary',)
 
 quickmap
 
